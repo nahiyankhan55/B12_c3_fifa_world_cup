@@ -450,3 +450,712 @@ body {
   text-decoration: underline;
   color: white;
 }
+
+/* General Resets and Typography */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Inter", sans-serif;
+  color: #333;
+  background-color: #f8f8f8;
+  line-height: 1.6;
+}
+
+h1,
+h2,
+h3 {
+  color: #1a1a1a;
+  line-height: 1.2;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+/* -------------------------------------------------------------------------- */
+/* Utility & Buttons */
+/* -------------------------------------------------------------------------- */
+.btn {
+  display: inline-block;
+  padding: 10px 20px;
+  border: 1px solid #dc0101;
+  border-radius: 5px;
+  font-weight: 600;
+  text-align: center;
+  cursor: pointer;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.btn.active {
+  background-color: #dc0101;
+  color: #fff;
+}
+
+.btn:hover {
+  background-color: #a30000;
+  border-color: #a30000;
+}
+
+.btn-primary {
+  background-color: #1a1a1a;
+  color: #fff;
+  padding: 12px 25px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: 600;
+  transition: background-color 0.3s;
+}
+
+.btn-primary:hover {
+  background-color: #444;
+}
+
+.small-btn {
+  padding: 8px 15px;
+  font-size: 0.9em;
+  margin-top: 10px;
+}
+
+/* -------------------------------------------------------------------------- */
+/* Hero Section */
+/* -------------------------------------------------------------------------- */
+.hero {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #1a1a1a;
+  color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  margin: 20px;
+}
+
+.hero-text {
+  padding: 20px 0;
+}
+
+.hero-text h1 {
+  font-size: 2.5em;
+  color: #fff;
+  margin-bottom: 10px;
+}
+
+.hero-text span {
+  color: #dc0101;
+}
+
+.hero-text p {
+  margin-bottom: 20px;
+  color: #ccc;
+  font-size: 0.9em;
+}
+
+.hero-img {
+  margin-top: 20px;
+}
+
+.hero-img img {
+  border-radius: 10px;
+}
+
+.secondary-hero {
+  background-color: #dc0101;
+  margin: 40px 20px;
+  min-height: 300px;
+}
+
+.secondary-hero .hero-text h1 {
+  color: #fff;
+}
+
+.secondary-hero .hero-text p {
+  color: #eee;
+}
+
+.secondary-hero .btn.active {
+  background-color: #1a1a1a;
+  border-color: #1a1a1a;
+}
+
+.secondary-hero .btn.active:hover {
+  background-color: #444;
+}
+
+/* -------------------------------------------------------------------------- */
+/* Feature Section (Plan Your Visit) */
+/* -------------------------------------------------------------------------- */
+.featured {
+  padding: 40px 20px;
+  background-color: #fff;
+}
+
+.featured .container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 30px;
+}
+
+.featured .image-box img {
+  border-radius: 10px;
+}
+
+.featured .text-box h2 {
+  font-size: 1.8em;
+  margin-bottom: 15px;
+}
+
+.featured .text-box p {
+  margin-bottom: 20px;
+}
+
+/* -------------------------------------------------------------------------- */
+/* Main Content Layout (Sidebar & Cards) */
+/* -------------------------------------------------------------------------- */
+.main {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  gap: 20px;
+}
+
+/* Sidebar */
+.sidebar {
+  background-color: #1a1a1a;
+  border-radius: 10px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.sidebar .btn {
+  width: 100%;
+  border: none;
+  color: #fff;
+  background-color: #444;
+  padding: 15px 20px;
+  border-radius: 8px;
+  font-size: 1em;
+}
+
+.sidebar .btn:hover,
+.sidebar .btn.active {
+  background-color: #dc0101;
+}
+
+/* Blog Cards */
+.cards {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 20px;
+}
+
+.card {
+  background-color: #fff;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+}
+
+.card img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+
+.card-content {
+  padding: 15px;
+}
+
+.tag {
+  display: inline-block;
+  background-color: #ffe0e0;
+  color: #dc0101;
+  padding: 5px 10px;
+  border-radius: 5px;
+  font-size: 0.8em;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+.card h3 {
+  font-size: 1.1em;
+  margin-bottom: 10px;
+}
+
+.meta {
+  display: flex;
+  gap: 15px;
+  font-size: 0.9em;
+  color: #777;
+  margin-top: 10px;
+}
+
+.meta i {
+  margin-right: 5px;
+}
+
+/* -------------------------------------------------------------------------- */
+/* NEW FEATURE: Match Schedule */
+/* -------------------------------------------------------------------------- */
+.match-schedule {
+  padding: 40px 20px;
+  background-color: #fff;
+}
+
+.schedule-header {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.schedule-header h2 {
+  color: #dc0101;
+  font-size: 1.8em;
+}
+
+.schedule-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 20px;
+}
+
+.match-card {
+  background-color: #f4f4f4;
+  padding: 20px;
+  border-radius: 10px;
+  text-align: center;
+  border: 1px solid #ddd;
+}
+
+.team-logos {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+.team-logos img {
+  width: 50px;
+  height: 50px;
+  object-fit: contain;
+}
+
+.team-logos span {
+  font-weight: 700;
+  font-size: 1.2em;
+  color: #dc0101;
+}
+
+.match-card h4 {
+  font-size: 1.2em;
+  margin-bottom: 5px;
+  color: #1a1a1a;
+}
+
+.match-info,
+.match-time {
+  font-size: 0.9em;
+  color: #777;
+}
+
+/* -------------------------------------------------------------------------- */
+/* NEW FEATURE: Group Standings */
+/* -------------------------------------------------------------------------- */
+.standings-table {
+  padding: 40px 20px;
+  text-align: center;
+}
+
+.standings-table h2 {
+  margin-bottom: 20px;
+  color: #1a1a1a;
+}
+
+.group-table {
+  width: 100%;
+  border-collapse: collapse;
+  background-color: #fff;
+  border-radius: 10px;
+  overflow: hidden;
+  margin-bottom: 20px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+}
+
+.group-table th,
+.group-table td {
+  padding: 12px 8px;
+  border-bottom: 1px solid #eee;
+  text-align: left;
+  font-size: 0.9em;
+}
+
+.group-table th {
+  background-color: #dc0101;
+  color: #fff;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.group-table tbody tr:last-child td {
+  border-bottom: none;
+}
+
+.group-table .flag {
+  width: 20px;
+  height: 15px;
+  margin-right: 5px;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.group-table .eliminated {
+  background-color: #fffafa;
+  color: #777;
+}
+
+.view-all-btn {
+  display: block;
+  width: fit-content;
+  margin: 0 auto;
+}
+
+/* -------------------------------------------------------------------------- */
+/* Testimonials Section */
+/* -------------------------------------------------------------------------- */
+.testimonials {
+  padding: 40px 20px;
+  background-color: #f0f0f0;
+  text-align: center;
+}
+
+.testimonials h2 {
+  margin-bottom: 30px;
+}
+
+.testimonials h2 i {
+  color: #dc0101;
+  margin-left: 10px;
+}
+
+.testimonial-container {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.testimonial-card {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
+  text-align: left;
+}
+
+.testimonial-card p {
+  font-style: italic;
+  margin-bottom: 10px;
+}
+
+.testimonial-card h4 {
+  font-weight: 600;
+  color: #dc0101;
+  font-size: 1em;
+}
+
+.testimonial-card .role {
+  color: #777;
+  font-weight: 400;
+  font-size: 0.9em;
+}
+
+/* -------------------------------------------------------------------------- */
+/* NEW FEATURE: Newsletter Section */
+/* -------------------------------------------------------------------------- */
+.newsletter-section {
+  background-color: #1a1a1a;
+  color: #fff;
+  padding: 40px 20px;
+  text-align: center;
+}
+
+.newsletter-content h2 {
+  color: #dc0101;
+  margin-bottom: 10px;
+}
+
+.newsletter-content p {
+  margin-bottom: 20px;
+  color: #ccc;
+  font-size: 0.9em;
+}
+
+.newsletter-form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+.newsletter-form input {
+  padding: 12px;
+  border: none;
+  border-radius: 8px;
+  font-size: 1em;
+}
+
+.newsletter-form .btn-primary {
+  width: 100%;
+  background-color: #dc0101;
+}
+
+.newsletter-form .btn-primary:hover {
+  background-color: #a30000;
+}
+
+/* -------------------------------------------------------------------------- */
+/* Contact Section */
+/* -------------------------------------------------------------------------- */
+.contact-section {
+  padding: 40px 20px;
+  background-color: #fff;
+  text-align: center;
+}
+
+.contact-section h2 {
+  margin-bottom: 10px;
+}
+
+.contact-section p {
+  margin-bottom: 30px;
+  color: #777;
+}
+
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+.contact-form input,
+.contact-form textarea {
+  padding: 12px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  font-family: inherit;
+  font-size: 1em;
+}
+
+.contact-form textarea {
+  resize: vertical;
+}
+
+.contact-form .btn-primary {
+  align-self: flex-end;
+}
+
+/* -------------------------------------------------------------------------- */
+/* Footer */
+/* -------------------------------------------------------------------------- */
+.footer {
+  background-color: #1a1a1a;
+  color: #fff;
+  padding: 40px 20px;
+  text-align: center;
+}
+
+.footer-title {
+  color: #fff;
+  font-size: 2em;
+  margin-bottom: 10px;
+}
+
+.footer-line {
+  border: 0;
+  height: 1px;
+  background-color: #444;
+  margin: 20px 0;
+}
+
+.footer-links {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.footer-links li a {
+  font-size: 0.9em;
+  transition: color 0.3s;
+}
+
+.footer-links li a:hover {
+  color: #dc0101;
+}
+
+.footer-links i {
+  margin-right: 8px;
+  color: #dc0101;
+}
+
+/* Social Media Links */
+.social-links {
+  margin: 20px 0;
+}
+
+.social-links a {
+  color: #fff;
+  font-size: 1.5em;
+  margin: 0 10px;
+  transition: color 0.3s;
+}
+
+.social-links a:hover {
+  color: #dc0101;
+}
+
+.copyright {
+  font-size: 0.8em;
+  color: #777;
+  margin-top: 20px;
+}
+
+/* -------------------------------------------------------------------------- */
+/* Media Query for Tablet and Desktop Layouts */
+/* -------------------------------------------------------------------------- */
+@media screen and (min-width: 768px) {
+  /* Hero */
+  .hero {
+    flex-direction: row;
+    text-align: left;
+    padding: 60px 80px;
+    margin: 40px;
+    justify-content: space-between;
+    min-height: 450px;
+  }
+
+  .hero-text {
+    flex: 1;
+    padding-right: 50px;
+  }
+
+  .hero-text h1 {
+    font-size: 4em;
+  }
+
+  .hero-img {
+    flex: 1;
+    max-width: 50%;
+    margin-top: 0;
+  }
+
+  /* Featured Section */
+  .featured .container {
+    flex-direction: row;
+    text-align: left;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+
+  .featured .image-box,
+  .featured .text-box {
+    flex: 1;
+  }
+
+  .featured .image-box img {
+    height: 100%;
+    object-fit: cover;
+  }
+
+  /* Main Content */
+  .main {
+    flex-direction: row;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 40px;
+    align-items: flex-start;
+  }
+
+  .sidebar {
+    min-width: 250px;
+    flex: 0 0 250px; /* Fixed width sidebar */
+    position: sticky; /* Keep sidebar visible */
+    top: 20px;
+  }
+
+  .cards {
+    flex: 1;
+    grid-template-columns: repeat(3, 1fr); /* 3 cards per row */
+  }
+
+  /* Match Schedule */
+  .schedule-grid {
+    grid-template-columns: repeat(3, 1fr);
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+
+  /* Testimonials */
+  .testimonial-container {
+    flex-direction: row;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+
+  /* Standings */
+  .group-table {
+    max-width: 800px;
+    margin: 0 auto 20px;
+  }
+
+  /* Newsletter & Contact */
+  .newsletter-form {
+    flex-direction: row;
+    gap: 0;
+    max-width: 600px;
+  }
+
+  .newsletter-form input {
+    flex: 1;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+  }
+
+  .newsletter-form .btn-primary {
+    width: auto;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+  }
+
+  /* Footer */
+  .footer-links {
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 15px 30px;
+  }
+}
+
+/* Desktop-specific card image height */
+@media screen and (min-width: 1024px) {
+  .card img {
+    height: 250px;
+  }
+}
