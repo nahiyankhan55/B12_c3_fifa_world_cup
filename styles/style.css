@@ -67,7 +67,7 @@ body {
 }
 
 .btn {
-  padding: 10px;
+  padding: 8px;
   border: 2px solid #000;
   background: #fff;
   font-weight: 600;
@@ -150,6 +150,51 @@ body {
 .testimonial-card h4 {
   margin-top: 10px;
   color: #e11d48;
+}
+
+.container {
+  display: flex;
+  max-width: 1000px;
+  margin: 60px auto;
+  align-items: center;
+  gap: 40px;
+  padding: 0 20px;
+}
+
+.image-box img {
+  width: 100%;
+  border-radius: 10px;
+  max-width: 400px;
+}
+
+.text-box h2 {
+  font-size: 28px;
+  color: #0f0f2e;
+}
+
+.text-box p {
+  margin: 20px 0;
+  color: #555;
+  line-height: 1.6;
+}
+
+.btn {
+  background-color: #ec267e;
+  color: #fff;
+  padding: 12px 20px;
+  border-radius: 5px;
+  text-decoration: none;
+  display: inline-block;
+  font-weight: bold;
+  transition: background 0.3s;
+}
+
+.btn i {
+  margin-left: 10px;
+}
+
+.btn:hover {
+  background-color: #83093e;
 }
 
 /* Footer */
