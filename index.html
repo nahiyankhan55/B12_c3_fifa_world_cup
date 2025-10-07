@@ -1,313 +1,389 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Goal - Football Blog</title>
-    <link rel="stylesheet" href="styles/style.css">
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-</head>
-<body>
-
-
+    <link rel="stylesheet" href="styles/style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+  </head>
+  <body>
     <section class="hero">
-        <div class="hero-text">
-            <h1>The Greatest<br><span>show on the<br>earth</span></h1>
-            <p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old.</p>
-            <a href="#" class="btn active">Watch Live <i class="fas fa-play"></i></a>
-        </div>
-        <div class="hero-img">
-            <img src="./img/matches/matches_2.webp" alt="Brazil Player">
-        </div>
+      <div class="hero-text">
+        <h1>
+          The Greatest<br /><span>show on the<br />earth</span>
+        </h1>
+        <p>
+          Contrary to popular belief, Lorem Ipsum is not simply random text. It
+          has roots in a piece of classical Latin literature from 45 BC, making
+          it over 2000 years old.
+        </p>
+        <a href="#" class="btn active"
+          >Watch Live <i class="fas fa-play"></i
+        ></a>
+      </div>
+      <div class="hero-img">
+        <img src="./img/matches/matches_2.webp" alt="Brazil Player" />
+      </div>
     </section>
 
     <section class="match-schedule">
-        <div class="schedule-header">
-            <h2>⚽ Upcoming Match Schedule</h2>
+      <div class="schedule-header">
+        <h2>⚽ Upcoming Match Schedule</h2>
+      </div>
+      <div class="schedule-grid">
+        <div class="match-card">
+          <div class="team-logos">
+            <img src="./img/matches/01.jpg" alt="Team A Logo" />
+            <span>VS</span>
+            <img src="./img/matches/02.png" alt="Team B Logo" />
+          </div>
+          <h4>Qatar vs Ecuador</h4>
+          <p class="match-info">Group A - Al Bayt Stadium</p>
+          <p class="match-time">Sun, Nov 20, 10:00 AM EST</p>
+          <a href="#" class="btn small-btn">Details</a>
         </div>
-        <div class="schedule-grid">
-            <div class="match-card">
-                <div class="team-logos">
-                    <img src="./img/matches/01.jpg" alt="Team A Logo">
-                    <span>VS</span>
-                    <img src="./img/matches/02.png" alt="Team B Logo">
-                </div>
-                <h4>Qatar vs Ecuador</h4>
-                <p class="match-info">Group A - Al Bayt Stadium</p>
-                <p class="match-time">Sun, Nov 20, 10:00 AM EST</p>
-                <a href="#" class="btn small-btn">Details</a>
-            </div>
-            <div class="match-card">
-                <div class="team-logos">
-                    <img src="./img/matches/England-Flag-World-Cup-Football-2022.jpg" alt="Team C Logo">
-                    <span>VS</span>
-                    <img src="./img/matches/Flag_of_Iran.svg.png" alt="Team D Logo">
-                </div>
-                <h4>England vs Iran</h4>
-                <p class="match-info">Group B - Khalifa International</p>
-                <p class="match-time">Mon, Nov 21, 7:00 AM EST</p>
-                <a href="#" class="btn small-btn">Details</a>
-            </div>
-            <div class="match-card">
-                <div class="team-logos">
-                    <img src="./img/matches/Flag_of_Argentina.svg.png" alt="Team E Logo">
-                    <span>VS</span>
-                    <img src="./img/matches/Flag_of_Saudi_Arabia.svg.webp" alt="Team F Logo">
-                </div>
-                <h4>Argentina vs Saudi Arabia</h4>
-                <p class="match-info">Group C - Lusail Stadium</p>
-                <p class="match-time">Tue, Nov 22, 4:00 AM EST</p>
-                <a href="#" class="btn small-btn">Details</a>
-            </div>
+        <div class="match-card">
+          <div class="team-logos">
+            <img
+              src="./img/matches/England-Flag-World-Cup-Football-2022.jpg"
+              alt="Team C Logo"
+            />
+            <span>VS</span>
+            <img src="./img/matches/Flag_of_Iran.svg.png" alt="Team D Logo" />
+          </div>
+          <h4>England vs Iran</h4>
+          <p class="match-info">Group B - Khalifa International</p>
+          <p class="match-time">Mon, Nov 21, 7:00 AM EST</p>
+          <a href="#" class="btn small-btn">Details</a>
         </div>
+        <div class="match-card">
+          <div class="team-logos">
+            <img
+              src="./img/matches/Flag_of_Argentina.svg.png"
+              alt="Team E Logo"
+            />
+            <span>VS</span>
+            <img
+              src="./img/matches/Flag_of_Saudi_Arabia.svg.webp"
+              alt="Team F Logo"
+            />
+          </div>
+          <h4>Argentina vs Saudi Arabia</h4>
+          <p class="match-info">Group C - Lusail Stadium</p>
+          <p class="match-time">Tue, Nov 22, 4:00 AM EST</p>
+          <a href="#" class="btn small-btn">Details</a>
+        </div>
+      </div>
     </section>
     <section class="featured">
-        <div class="container">
-            <div class="image-box">
-                <img src="./img/matches/matches_3.jpg" alt="Products Image"/>
-            </div>
-            <div class="text-box">
-                <h2>Plan Your Visit</h2>
-                <p>
-                    Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. 
-                    Exercitation veniam consequat sunt nostrud amet.
-                </p>
-                <a href="#" class="btn active">Join Now <i class="fas fa-arrow-right"></i></a>
-            </div>
+      <div class="container">
+        <div class="image-box">
+          <img src="./img/matches/matches_3.jpg" alt="Products Image" />
         </div>
+        <div class="text-box">
+          <h2>Plan Your Visit</h2>
+          <p>
+            Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet
+            sint. Velit officia consequat duis enim velit mollit. Exercitation
+            veniam consequat sunt nostrud amet.
+          </p>
+          <a href="#" class="btn active"
+            >Join Now <i class="fas fa-arrow-right"></i
+          ></a>
+        </div>
+      </div>
     </section>
     <main class="main">
-        <aside class="sidebar">
-            <a href="#" class="btn active">Upcoming Match</a>
-            <a href="#" class="btn">All Group</a>
-            <a href="#" class="btn">Blog</a>
-            <a href="#" class="btn">Group Standings</a>
-        </aside>
+      <aside class="sidebar">
+        <a href="#" class="btn active">Upcoming Match</a>
+        <a href="#" class="btn">All Group</a>
+        <a href="#" class="btn">Blog</a>
+        <a href="#" class="btn">Group Standings</a>
+      </aside>
 
-        <section class="cards">
-            <div class="card">
-                <img src="./img/matches/matches_1.jpg" alt="Match Image">
-                <div class="card-content">
-                    <span class="tag">Transfer</span>
-                    <h3>Transfer Live: Chelsea in talks over Kimpembe transfer</h3>
-                    <div class="meta">
-                        <span><i class="far fa-clock"></i> 1h ago</span>
-                        <span><i class="far fa-comment-alt"></i> 23</span>
-                    </div>
-                </div>
+      <section class="cards">
+        <div class="card">
+          <img src="./img/matches/matches_1.jpg" alt="Match Image" />
+          <div class="card-content">
+            <span class="tag">Transfer</span>
+            <h3>Transfer Live: Chelsea in talks over Kimpembe transfer</h3>
+            <div class="meta">
+              <span><i class="far fa-clock"></i> 1h ago</span>
+              <span><i class="far fa-comment-alt"></i> 23</span>
             </div>
+          </div>
+        </div>
 
-            <div class="card">
-                <img src="./img/matches/Lionel-Messi-Argentina-Netherlands-World-Cup-Qatar-2022.webp" alt="Match Image">
-                <div class="card-content">
-                    <span class="tag">Analysis</span>
-                    <h3>Kylian Mbappé's evolving role at PSG: The Tactical Deep Dive</h3>
-                    <div class="meta">
-                        <span><i class="far fa-clock"></i> 5h ago</span>
-                        <span><i class="far fa-comment-alt"></i> 12</span>
-                    </div>
-                </div>
+        <div class="card">
+          <img
+            src="./img/matches/Lionel-Messi-Argentina-Netherlands-World-Cup-Qatar-2022.webp"
+            alt="Match Image"
+          />
+          <div class="card-content">
+            <span class="tag">Analysis</span>
+            <h3>
+              Kylian Mbappé's evolving role at PSG: The Tactical Deep Dive
+            </h3>
+            <div class="meta">
+              <span><i class="far fa-clock"></i> 5h ago</span>
+              <span><i class="far fa-comment-alt"></i> 12</span>
             </div>
+          </div>
+        </div>
 
-            <div class="card">
-                <img src="./img/matches/matches_2.webp" alt="Match Image">
-                <div class="card-content">
-                    <span class="tag">Injury Report</span>
-                    <h3>Barcelona's midfield crisis deepens: Pedri sidelined for a month</h3>
-                    <div class="meta">
-                        <span><i class="far fa-clock"></i> 10h ago</span>
-                        <span><i class="far fa-comment-alt"></i> 5</span>
-                    </div>
-                </div>
+        <div class="card">
+          <img src="./img/matches/matches_2.webp" alt="Match Image" />
+          <div class="card-content">
+            <span class="tag">Injury Report</span>
+            <h3>
+              Barcelona's midfield crisis deepens: Pedri sidelined for a month
+            </h3>
+            <div class="meta">
+              <span><i class="far fa-clock"></i> 10h ago</span>
+              <span><i class="far fa-comment-alt"></i> 5</span>
             </div>
+          </div>
+        </div>
 
-
-            <div class="card">
-                <img src="./img/matches/matches_3.jpg" alt="Match Image">
-                <div class="card-content">
-                    <span class="tag">Match Review</span>
-                    <h3>Man City edge out Liverpool in thrilling 4-3 encounter</h3>
-                    <div class="meta">
-                        <span><i class="far fa-clock"></i> 1d ago</span>
-                        <span><i class="far fa-comment-alt"></i> 55</span>
-                    </div>
-                </div>
+        <div class="card">
+          <img src="./img/matches/matches_3.jpg" alt="Match Image" />
+          <div class="card-content">
+            <span class="tag">Match Review</span>
+            <h3>Man City edge out Liverpool in thrilling 4-3 encounter</h3>
+            <div class="meta">
+              <span><i class="far fa-clock"></i> 1d ago</span>
+              <span><i class="far fa-comment-alt"></i> 55</span>
             </div>
-            <div class="card">
-                <img src="./img/matches/matches_4.jpeg" alt="Match Image">
-                <div class="card-content">
-                    <span class="tag">Interview</span>
-                    <h3>Exclusive: The Manager on team morale and future goals</h3>
-                    <div class="meta">
-                        <span><i class="far fa-clock"></i> 1d ago</span>
-                        <span><i class="far fa-comment-alt"></i> 8</span>
-                    </div>
-                </div>
+          </div>
+        </div>
+        <div class="card">
+          <img src="./img/matches/matches_4.jpeg" alt="Match Image" />
+          <div class="card-content">
+            <span class="tag">Interview</span>
+            <h3>Exclusive: The Manager on team morale and future goals</h3>
+            <div class="meta">
+              <span><i class="far fa-clock"></i> 1d ago</span>
+              <span><i class="far fa-comment-alt"></i> 8</span>
             </div>
-            <div class="card">
-                <img src="./img/matches/matches_5.webp" alt="Match Image">
-                <div class="card-content">
-                    <span class="tag">History</span>
-                    <h3>The forgotten final: Recounting the 1998 classic match</h3>
-                    <div class="meta">
-                        <span><i class="far fa-clock"></i> 2d ago</span>
-                        <span><i class="far fa-comment-alt"></i> 30</span>
-                    </div>
-                </div>
+          </div>
+        </div>
+        <div class="card">
+          <img src="./img/matches/matches_5.webp" alt="Match Image" />
+          <div class="card-content">
+            <span class="tag">History</span>
+            <h3>The forgotten final: Recounting the 1998 classic match</h3>
+            <div class="meta">
+              <span><i class="far fa-clock"></i> 2d ago</span>
+              <span><i class="far fa-comment-alt"></i> 30</span>
             </div>
-            <div class="card">
-                <img src="./img/matches/matches_6.jpg" alt="Match Image">
-                <div class="card-content">
-                    <span class="tag">Opinion</span>
-                    <h3>Why VAR is good for the game, despite the controversy</h3>
-                    <div class="meta">
-                        <span><i class="far fa-clock"></i> 2d ago</span>
-                        <span><i class="far fa-comment-alt"></i> 68</span>
-                    </div>
-                </div>
+          </div>
+        </div>
+        <div class="card">
+          <img src="./img/matches/matches_6.jpg" alt="Match Image" />
+          <div class="card-content">
+            <span class="tag">Opinion</span>
+            <h3>Why VAR is good for the game, despite the controversy</h3>
+            <div class="meta">
+              <span><i class="far fa-clock"></i> 2d ago</span>
+              <span><i class="far fa-comment-alt"></i> 68</span>
             </div>
-            <div class="card">
-                <img src="./img/matches/england-captain-harry-kane_pkae6h9ci30517ej4e0kczl1g.jpg" alt="Match Image">
-                <div class="card-content">
-                    <span class="tag">Transfer</span>
-                    <h3>Transfer Live: Arsenal secure new defensive midfielder</h3>
-                    <div class="meta">
-                        <span><i class="far fa-clock"></i> 3d ago</span>
-                        <span><i class="far fa-comment-alt"></i> 17</span>
-                    </div>
-                </div>
+          </div>
+        </div>
+        <div class="card">
+          <img
+            src="./img/matches/england-captain-harry-kane_pkae6h9ci30517ej4e0kczl1g.jpg"
+            alt="Match Image"
+          />
+          <div class="card-content">
+            <span class="tag">Transfer</span>
+            <h3>Transfer Live: Arsenal secure new defensive midfielder</h3>
+            <div class="meta">
+              <span><i class="far fa-clock"></i> 3d ago</span>
+              <span><i class="far fa-comment-alt"></i> 17</span>
             </div>
-        </section>
+          </div>
+        </div>
+      </section>
     </main>
     <section class="standings-table">
-        <h2>🏆 Group Standings</h2>
-        <table class="group-table">
-            <thead>
-                <tr>
-                    <th>Group A</th>
-                    <th>P</th>
-                    <th>W</th>
-                    <th>D</th>
-                    <th>L</th>
-                    <th>Pts</th>
-                </tr>
-            </thead>
-            <tbody>
-                <tr>
-                    <td><img src="./img/matches/Flag_of_the_Netherlands.svg.webp" alt="Netherlands Flag" class="flag"> Netherlands</td>
-                    <td>2</td>
-                    <td>1</td>
-                    <td>1</td>
-                    <td>0</td>
-                    <td>4</td>
-                </tr>
-                <tr>
-                    <td><img src="./img/matches/02.png" alt="Ecuador Flag" class="flag"> Ecuador</td>
-                    <td>2</td>
-                    <td>1</td>
-                    <td>1</td>
-                    <td>0</td>
-                    <td>4</td>
-                </tr>
-                <tr>
-                    <td><img src="./img/matches/Flag_of_Senegal.svg.png" alt="Senegal Flag" class="flag"> Senegal</td>
-                    <td>2</td>
-                    <td>1</td>
-                    <td>0</td>
-                    <td>1</td>
-                    <td>3</td>
-                </tr>
-                <tr class="eliminated">
-                    <td><img src="./img/matches/01.jpg" alt="Qatar Flag" class="flag"> Qatar</td>
-                    <td>2</td>
-                    <td>0</td>
-                    <td>0</td>
-                    <td>2</td>
-                    <td>0</td>
-                </tr>
-            </tbody>
-        </table>
-        <a href="#" class="btn small-btn view-all-btn">View All Groups <i class="fas fa-chevron-right"></i></a>
-    </section>
-    <section class="hero secondary-hero">
-        <div class="hero-text">
-            <h1>World Cup 2025 Eight epic Club<br>World Cup Moments</span></h1>
-            <p>Blues dazzle, minnows rise, goals flow and starlets emerge as the planet converged on the USA to lay down an electric marker for the club game.</p>
-            <a href="#" class="btn active">Watch Highlights <i class="fas fa-video"></i></a>
-        </div>
-        <div class="hero-img">
-            </div>
+      <h2>🏆 Group Standings</h2>
+      <table class="group-table">
+        <thead>
+          <tr>
+            <th>Group A</th>
+            <th>P</th>
+            <th>W</th>
+            <th>D</th>
+            <th>L</th>
+            <th>Pts</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>
+              <img
+                src="./img/matches/Flag_of_the_Netherlands.svg.webp"
+                alt="Netherlands Flag"
+                class="flag"
+              />
+              Netherlands
+            </td>
+            <td>2</td>
+            <td>1</td>
+            <td>1</td>
+            <td>0</td>
+            <td>4</td>
+          </tr>
+          <tr>
+            <td>
+              <img src="./img/matches/02.png" alt="Ecuador Flag" class="flag" />
+              Ecuador
+            </td>
+            <td>2</td>
+            <td>1</td>
+            <td>1</td>
+            <td>0</td>
+            <td>4</td>
+          </tr>
+          <tr>
+            <td>
+              <img
+                src="./img/matches/Flag_of_Senegal.svg.png"
+                alt="Senegal Flag"
+                class="flag"
+              />
+              Senegal
+            </td>
+            <td>2</td>
+            <td>1</td>
+            <td>0</td>
+            <td>1</td>
+            <td>3</td>
+          </tr>
+          <tr class="eliminated">
+            <td>
+              <img src="./img/matches/01.jpg" alt="Qatar Flag" class="flag" />
+              Qatar
+            </td>
+            <td>2</td>
+            <td>0</td>
+            <td>0</td>
+            <td>2</td>
+            <td>0</td>
+          </tr>
+        </tbody>
+      </table>
+      <a href="#" class="btn small-btn view-all-btn"
+        >View All Groups <i class="fas fa-chevron-right"></i
+      ></a>
     </section>
 
     <section class="testimonials">
-        <h2>Meet the teams <i class="fas fa-users"></i></h2>
-        <div class="testimonial-container">
-            <div class="testimonial-card">
-                <p>
-                    "From the Atlanta Beltline murals to the stages of the Fox and Alliance Theatres, this city pulses with the energy of makers, dreamers, and trailblazers.!"
-                </p>
-                <h4>- Sarah J. <span class="role">Fan</span></h4>
-            </div>
-            <div class="testimonial-card">
-                <p>
-                    "For a faster, safer entry experience, only clear bags are allowed inside the stadium.."
-                </p>
-                <h4>- Michael R. <span class="role">Attendee</span></h4>
-            </div>
-            <div class="testimonial-card">
-                <p>
-                    "The atmosphere was electric! A truly world-class sporting event experience from start to finish."
-                </p>
-                <h4>- Ayesha K. <span class="role">Blogger</span></h4>
-            </div>
+      <h2>Meet the teams <i class="fas fa-users"></i></h2>
+      <div class="testimonial-container">
+        <div class="testimonial-card">
+          <p>
+            "From the Atlanta Beltline murals to the stages of the Fox and
+            Alliance Theatres, this city pulses with the energy of makers,
+            dreamers, and trailblazers.!"
+          </p>
+          <h4>- Sarah J. <span class="role">Fan</span></h4>
         </div>
+        <div class="testimonial-card">
+          <p>
+            "For a faster, safer entry experience, only clear bags are allowed
+            inside the stadium.."
+          </p>
+          <h4>- Michael R. <span class="role">Attendee</span></h4>
+        </div>
+        <div class="testimonial-card">
+          <p>
+            "The atmosphere was electric! A truly world-class sporting event
+            experience from start to finish."
+          </p>
+          <h4>- Ayesha K. <span class="role">Blogger</span></h4>
+        </div>
+      </div>
     </section>
-
 
     <section class="newsletter-section">
-        <div class="newsletter-content">
-            <h2>Subscribe to our Newsletter 📧</h2>
-            <p>Get the latest transfer news, match analysis, and exclusive content delivered straight to your inbox!</p>
-            <form class="newsletter-form">
-                <input type="email" placeholder="Enter your email address" required />
-                <button type="submit" class="btn-primary">Subscribe</button>
-            </form>
-        </div>
+      <div class="newsletter-content">
+        <h2>Subscribe to our Newsletter 📧</h2>
+        <p>
+          Get the latest transfer news, match analysis, and exclusive content
+          delivered straight to your inbox!
+        </p>
+        <form class="newsletter-form">
+          <input type="email" placeholder="Enter your email address" required />
+          <button type="submit" class="btn-primary">Subscribe</button>
+        </form>
+      </div>
     </section>
     <section class="contact-section">
-        <h2>Contact <span class="Flowers-text-span">Us</span></h2>
-        <p>
-            Have any questions? Send us a message and we'll get back to you soon.
-        </p>
-        <form class="contact-form">
-            <input type="text" placeholder="Your Name" required />
-            <input type="email" placeholder="Your Email" required />
-            <textarea placeholder="Your Message" rows="4" required></textarea>
-            <button type="submit" class="btn-primary">Send Message <i class="fas fa-paper-plane"></i></button>
-        </form>
+      <h2>Contact <span class="Flowers-text-span">Us</span></h2>
+      <p>
+        Have any questions? Send us a message and we'll get back to you soon.
+      </p>
+      <form class="contact-form">
+        <input type="text" placeholder="Your Name" required />
+        <input type="email" placeholder="Your Email" required />
+        <textarea placeholder="Your Message" rows="4" required></textarea>
+        <button type="submit" class="btn-primary">
+          Send Message <i class="fas fa-paper-plane"></i>
+        </button>
+      </form>
     </section>
 
     <footer class="footer">
-        <h2 class="footer-title">Goal</h2>
-        <hr class="footer-line" />
-        <ul class="footer-links">
-            <li><a href="#"><i class="fas fa-phone"></i> Contact Us</a></li>
-            <li><a href="#"><i class="fas fa-file-contract"></i> Terms of Service</a></li>
-            <li><a href="#"><i class="fas fa-shield-alt"></i> Privacy Policy</a></li>
-            <li><a href="#"><i class="fas fa-cog"></i> Privacy Settings</a></li>
-            <li><a href="#"><i class="fas fa-mobile-alt"></i> Goal App</a></li>
-            <li><a href="#"><i class="fas fa-tv"></i> Goal Live</a></li>
-        </ul>
-        <div class="social-links">
-            <a href="#" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
-            <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
-            <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
-            <a href="#" aria-label="Youtube"><i class="fab fa-youtube"></i></a>
-        </div>
-        <p class="copyright">&copy; 2025 Goal. Design Make By (Nahiyan Khan). All rights reserved.</p>
+      <h2 class="footer-title">Goal</h2>
+      <hr class="footer-line" />
+      <ul class="footer-links">
+        <li>
+          <a href="#"><i class="fas fa-phone"></i> Contact Us</a>
+        </li>
+        <li>
+          <a href="#"><i class="fas fa-file-contract"></i> Terms of Service</a>
+        </li>
+        <li>
+          <a href="#"><i class="fas fa-shield-alt"></i> Privacy Policy</a>
+        </li>
+        <li>
+          <a href="#"><i class="fas fa-cog"></i> Privacy Settings</a>
+        </li>
+        <li>
+          <a href="#"><i class="fas fa-mobile-alt"></i> Goal App</a>
+        </li>
+        <li>
+          <a href="#"><i class="fas fa-tv"></i> Goal Live</a>
+        </li>
+      </ul>
+      <div class="social-links">
+        <a href="https://www.facebook.com/Kushbula.01Max/" aria-label="Facebook"
+          ><i class="fab fa-facebook-f"></i
+        ></a>
+        <a href="https://x.com/NahiyanKha43404" aria-label="Twitter"
+          ><i class="fab fa-twitter"></i
+        ></a>
+        <a href="https://www.instagram.com/" aria-label="Instagram"
+          ><i class="fab fa-instagram"></i
+        ></a>
+        <a href="https://www.youtube.com/" aria-label="Youtube"
+          ><i class="fab fa-youtube"></i
+        ></a>
+      </div>
+      <p class="copyright">
+        &copy; 2025 Goal. Design Make By (Nahiyan Khan). All rights reserved.
+      </p>
     </footer>
 
     <script src="./Scripts.js"></script>
-</body>
+  </body>
 </html>
