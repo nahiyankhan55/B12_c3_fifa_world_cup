@@ -9,7 +9,7 @@ body {
 .hero {
   display: flex;
   justify-content: space-between;
-  background: #000;
+  background: #241a1a;
   color: #fff;
   padding: 40px;
   border-radius: 12px;
