@@ -33,7 +33,7 @@ body {
 
 .hero-text p {
   font-size: 14px;
-  color: #ccc;
+  color: #ffffff;
   margin-top: 10px;
 }
 
@@ -41,7 +41,7 @@ body {
   display: inline-block;
   margin-top: 15px;
   background: #e11d48;
-  color: white;
+  color: rgb(255, 255, 255);
   padding: 10px 20px;
   border-radius: 999px;
   text-decoration: none;
@@ -125,7 +125,7 @@ body {
   position: sticky;
   top: 0;
   z-index: 1000;
-  background: #0c1b0c; /* dark green-black */
+  background: #f86e6e; /* dark green-black */
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.4);
 }
 
@@ -141,7 +141,7 @@ body {
 
 .dark-mode .btn,
 .dark-mode .btn-primary {
-  background-color: #198754; /* football green */
+  background-color: #ff0000; /* football Red */
   color: #fff;
 }
 
@@ -151,9 +151,9 @@ body {
   top: 20px;
   right: 25px;
   padding: 10px 18px;
-  background: linear-gradient(135deg, #0f5132, #198754);
+  background: linear-gradient(135deg, #8b0000, #ff0000);
   color: #ffcc00;
-  border: 2px solid #198754;
+  border: 2px solid #ff0000;
   border-radius: 25px;
   cursor: pointer;
   z-index: 9999;
@@ -164,7 +164,7 @@ body {
 }
 
 .mode-toggle-btn:hover {
-  background: linear-gradient(135deg, #198754, #14532d);
+  background: linear-gradient(135deg, #ff0000, #531414);
   color: #fff;
   transform: scale(1.05);
 }
@@ -172,8 +172,8 @@ body {
 /* Dark Mode Styling for the Toggle Button */
 .dark-mode .mode-toggle-btn {
   background: linear-gradient(135deg, #222, #333);
-  color: #00ff7f; /* neon football green */
-  border-color: #00ff7f;
+  color: #ff0000; /* neon football Red */
+  border-color: #ff0000;
 }
 
 /* Sticky Navbar */
@@ -197,7 +197,7 @@ body {
 
 .dark-mode .btn,
 .dark-mode .btn-primary {
-  background-color: #198754;
+  background-color: #871919;
   color: #fff;
 }
 
@@ -207,9 +207,9 @@ body {
   top: 20px;
   right: 25px;
   padding: 10px 18px;
-  background: linear-gradient(135deg, #0f5132, #198754);
+  background: linear-gradient(135deg, #510f0f, #871919);
   color: #ffcc00;
-  border: 2px solid #198754;
+  border: 2px solid #871919;
   border-radius: 25px;
   cursor: pointer;
   z-index: 9999;
@@ -220,15 +220,15 @@ body {
 }
 
 .mode-toggle-btn:hover {
-  background: linear-gradient(135deg, #198754, #14532d);
+  background: linear-gradient(135deg, #871919, #531414);
   color: #fff;
   transform: scale(1.05);
 }
 
 .dark-mode .mode-toggle-btn {
   background: linear-gradient(135deg, #222, #333);
-  color: #00ff7f;
-  border-color: #00ff7f;
+  color: #ff0000;
+  border-color: #ff0000;
 }
 
 /* Back to Top Button */
@@ -238,7 +238,7 @@ body {
   right: 25px;
   width: 45px;
   height: 45px;
-  background: linear-gradient(135deg, #198754, #0f5132);
+  background: linear-gradient(135deg, #871919, #510f0f);
   color: #ffcc00;
   border: none;
   border-radius: 50%;
@@ -253,15 +253,15 @@ body {
 }
 
 .back-to-top:hover {
-  background: linear-gradient(135deg, #00b060, #198754);
+  background: linear-gradient(135deg, #b00000, #871919);
   color: #fff;
   transform: scale(1.15);
 }
 
 .dark-mode .back-to-top {
   background: linear-gradient(135deg, #222, #333);
-  color: #00ff7f;
-  border: 1px solid #00ff7f;
+  color: #ff0000;
+  border: 1px solid #ff0000;
 }
 
 /* Cards Section */
@@ -332,7 +332,7 @@ body {
 }
 .testimonial-card h4 {
   margin-top: 10px;
-  color: #e11d48;
+  color: #e11d1d;
 }
 
 .container {
@@ -362,7 +362,7 @@ body {
 }
 
 .btn {
-  background-color: #ec267e;
+  background-color: #ec2626;
   color: #fff;
   padding: 12px 20px;
   border-radius: 5px;
@@ -377,7 +377,7 @@ body {
 }
 
 .btn:hover {
-  background-color: #83093e;
+  background-color: #830909;
 }
 
 /* Footer */
@@ -435,7 +435,7 @@ body {
   border-radius: 6px;
 }
 .contact-form button {
-  background: #e11d48;
+  background: #e11d1d;
   color: white;
   border: none;
   padding: 12px;
@@ -444,7 +444,7 @@ body {
   font-size: 1rem;
 }
 .contact-form button:hover {
-  background: #e11d48;
+  background: #e11d1d;
 }
 .footer-links li a:hover {
   text-decoration: underline;
